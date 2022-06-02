@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="SHORTCUT ICON" href="assets/resume.ico" type="image/x-icon">
+    <link rel="SHORTCUT ICON" href="assets/resume.ico" type="image/x-icon" />
 
     <meta
       name="viewport"
@@ -10,7 +10,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Resume | Panko Jing</title>
+    <title>Resume | Park Jing</title>
     <meta name="description" content="My Personal Website" />
 
     <!-- Open Graph -->
@@ -93,7 +93,7 @@
             class="navbar-brand title font-weight-lighter"
             href="https://panko.me/"
           >
-            <span class="font-weight-bold">Panko</span> Jing
+            <span class="font-weight-bold">Park</span> Jing
           </a>
 
           <!-- Navbar Toogle -->
@@ -229,13 +229,18 @@
           <h3>Technical Skills</h3>
           <br />
 
-          <b>Languages:</b> Java, Python, C#, C, JavaScript, TypeScript
+          <b>Languages:</b> Java, C#, C, Python, JavaScript, TypeScript, SQL,
+          HTML5/CSS3, Bash
           <br />
-          <b>Web Development:</b> HTML, CSS, Node.js, React, Spring Boot,
-          Angular, ASP.NET Core
+          <b>Frameworks:</b> Spring MVC, Spring Boot, ASP.NET Core, Hadoop,
+          MapReduce, Spark, React, Angular, Node.js
           <br />
-          <b> Tools:</b> MySQL, MongoDB, Elasticsearch, Hadoop, AWS, Azure, GCP,
-          Docker, Kubernetes, Linux, Git
+          <b>Databases/Tools:</b> MySQL, MongoDB, AWS, Azure, GCP, Docker,
+          Kubernetes, Linux, Git, Maven
+          <br />
+          <b>Knowledge:</b> OOP/OOD, Microservices, Design Patterns(MVC,
+          pub/sub, etc), RPC, Caching, Distributed File Systems, Cryptography,
+          Concurrency and Transactions, Blockchain
           <br />
           <br />
 
@@ -252,59 +257,58 @@
           </h5>
 
           <h6>
-            <i>Microsoft, Outlook Service team</i>
+            <i>Outlook Service team, Microsoft</i>
           </h6>
           <p>
             • Developed a
             <a
               href="https://drive.google.com/file/d/1gr4qxaPkjE0BKaM9TEWWG0XC5xF2eFWf/view?usp=sharing"
-              >web app</a
+              >web-based toolbox</a
             >
-            to troubleshoot Outlook AutoDetect service configuration issues,
-            which is used by Outlook engineering team to fetch email
-            configurations from AutoDetect & AutoDiscover endpoints more than
-            12,000 times per month, while boosting the efficiency of handling
-            AutoDetect Change Request by 67%.
+            using ASP.NET Core and React to handle Outlook
+            AutoDetect/AutoDiscover configuration issues, serving more than
+            12,000 requests per month.
           </p>
           <p>
-            • Utilized ASP.NET Core and C# to design backend, and implemented
-            frontend app with JavaScript, React and Node.js, which supports
-            Azure Active Directory authentication, JSON formatter and Base64
-            decoder.
+            • Utilized C# and ASP.NET Core MVC to implement RESTful APIs;
+            boosted the efficiency of handling requests of changing domain names
+            by 67% with Task-based asynchronous pattern (TAP) in .NET.
           </p>
           <p>
-            • Automated the workflow of handling AutoDetect Change Request by
-            integrating Azure Logic Apps with backend controllers, including
-            creating Azure DevOps work items, sending emails and Teams messages.
+            • Built the frontend with JavaScript, React Router, and axios;
+            implemented Azure AD authentication using Microsoft identity
+            platform and OAuth 2.0 authorization code flow.
           </p>
           <p>
-            • Deployed the web app to Azure App Service, and built CI/CD
+            • Deployed the web application to Azure App Service, and built CI/CD
             pipeline with Azure DevOps.
           </p>
 
           <br />
 
           <h5 style="text-align: left">
-            <b>Deep Learning Intern</b
+            <b>Software Engineering Intern</b
             ><span style="float: right; font-size: medium">
-              Mar. 2020 - May 2020
+              Feb. 2020 - May 2020
             </span>
           </h5>
 
           <h6>
-            <i>Chinese Academy of Sciences, Institute of Automation</i>
+            <i>Institute of Automation, Chinese Academy of Sciences</i>
           </h6>
 
           <p></p>
           <p>
-            • Identified the vulnerability of neural networks such as MobileNet
-            and Inception-v3 using FGSM, DeepFool and C&W attacking algorithm
-            based on TensorFlow/PyTorch.
+            • Developed an AI attack test platform using Django to measure the
+            robustness of image recognition models with adversarial examples;
+            achieved 70%~90% success rate of confusing neural networks such as
+            Inception-v3.
           </p>
           <p>
-            • Developed a web app where users can test the robustness of a
-            neural network by uploading pictures and choosing an adversarial
-            example generator.
+            • Utilized Python with NumPy, Pandas, Imageio, and SciPy to
+            preprocess original images, generated adversarial examples using
+            CleverHans, and visualized results of attacking recognition models
+            with Matplotlib.
           </p>
           <br />
 
@@ -318,21 +322,23 @@
           <h5><b>Markdown-Master</b></h5>
           <p>
             Technology Stack:<b>
-              Java, Spring Boot, TypeScript, Docker, Kubernetes
+              Java, Spring Boot, TypeScript, MongoDB, Docker, Kubernetes
             </b>
           </p>
           <p>
-            • Developed a microservice-based online editor to convert plain text
-            to Markdown document.
+            • Developed a microservice-based Markdown editor with syntax
+            highlighting and live preview using Spring Boot.
           </p>
           <p>
-            • Implemented authentication service using Java, Spring Boot and
-            JWT; connected to MongoDB Atlas to store users' documents; utilized
-            TypeScript, Angular and Node.js to develop the frontend app.
+            • Implemented authentication and document services using Spring MVC,
+            Spring Security and JWT; utilized MongoDB Atlas for data persistence
+            to store users’ documents; developed the frontend user interface
+            using React.
           </p>
           <p>
-            • Built docker images of frontend app and backend microservices, and
-            deployed the web app using Kubernetes.
+            • Built docker images of frontend and backend microservices, and
+            deployed the web app to Google Kubernetes cluster; achieved load
+            balancing with NGINX ingress controller for Kubernetes.
           </p>
 
           <br />
@@ -340,37 +346,35 @@
           <h5><b>DollarSmart Auction Store</b></h5>
           <p>Technology Stack:<b> AWS, Serverless, JavaScript, Node.js </b></p>
           <p>
-            • Developed a web-based auction store using Node.js with functions
-            including auction, authentication, notification.
+            • Developed a web-based auction store using JavaScript with
+            serverless computing and AWS services.
           </p>
           <p>
-            • Implemented CRUD operations of auction items with AWS Lambda
-            function and REST API, and utilized DynamoDB and S3 to store auction
-            records and pictures.
+            • Implemented authentication, auction, and notification services
+            using AWS Lambda function; used DynamoDB and S3 to store auction
+            records and pictures; developed the frontend user interface with
+            JavaScript and React.
           </p>
           <p>
-            • Achieved scalable communication between authentication and
-            notification services using AWS SQS, so that emails will be sent to
-            sellers and bidders once there is an update about an auction item.
+            • Utilized Amazon API Gateway for authorization and access control;
+            built event triggers using AWS EventBridge to manage valid auction
+            items; implemented email notification upon transactions with AWS SQS
+            and SES.
           </p>
 
           <br />
           <h5><b>Job-Finder</b></h5>
+          <p>Technology Stack:<b> Python, Spark, BeautifulSoup </b></p>
           <p>
-            Technology Stack:<b>
-              Python, Selenium, BeautifulSoup, MySQL, Elasticsearch
-            </b>
+            • Developed a web crawler using Python with BeautifulSoup and
+            Selenium to get job information from different websites.
           </p>
           <p>
-            • Developed a web scraper to extract job information from different
-            websites such as indeed.com, which can generate more than 3,000
-            filtered results according to the keyword input by users.
-          </p>
-          <p>
-            • Utilized BeautifulSoup and Selenium to perform browser automation
-            and data scraping from HTML of the webpage; connected to MySQL to
-            store job information and used Elasticsearch to perform queries as
-            per keywords.
+            • Processed raw data using Pandas, NumPy, and RegEx; Utilized Spark
+            on Databricks with DataFrame to filter the results as per keyword,
+            which generated more than 10,000 curated results and reduced
+            response latency by more than 35%; displayed insights and trends of
+            job market using Matplotlib.
           </p>
 
           <br />
@@ -382,7 +386,7 @@
 
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2022 Panko Jing. Last updated: April 21, 2022.
+        &copy; Copyright 2022 Park Jing. Last updated: May 26, 2022.
       </div>
     </footer>
   </body>
